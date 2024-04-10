@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 20005623}
   - component: {fileID: 20005622}
   - component: {fileID: 20005621}
+  - component: {fileID: 20005624}
   m_Layer: 5
   m_Name: Button3
   m_TagString: Untagged
@@ -204,7 +205,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 20005622}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 20005624}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &20005622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -243,6 +268,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20005619}
   m_CullTransparentMesh: 1
+--- !u!114 &20005624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20005619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1 &265121518
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +495,7 @@ GameObject:
   - component: {fileID: 458463287}
   - component: {fileID: 458463286}
   - component: {fileID: 458463285}
+  - component: {fileID: 458463288}
   m_Layer: 5
   m_Name: Button8
   m_TagString: Untagged
@@ -526,7 +565,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 458463286}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P8
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 458463288}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &458463286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -565,6 +628,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458463283}
   m_CullTransparentMesh: 1
+--- !u!114 &458463288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458463283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -800,6 +876,7 @@ GameObject:
   - component: {fileID: 601351548}
   - component: {fileID: 601351547}
   - component: {fileID: 601351546}
+  - component: {fileID: 601351549}
   m_Layer: 5
   m_Name: Button4
   m_TagString: Untagged
@@ -869,7 +946,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 601351547}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P4
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 601351549}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &601351547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -908,6 +1009,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601351544}
   m_CullTransparentMesh: 1
+--- !u!114 &601351549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601351544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1 &616723411
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,6 +1034,7 @@ GameObject:
   - component: {fileID: 616723415}
   - component: {fileID: 616723414}
   - component: {fileID: 616723413}
+  - component: {fileID: 616723416}
   m_Layer: 5
   m_Name: Button5
   m_TagString: Untagged
@@ -989,7 +1104,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 616723414}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P5
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 616723416}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &616723414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1028,6 +1167,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616723411}
   m_CullTransparentMesh: 1
+--- !u!114 &616723416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616723411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,6 +1572,7 @@ GameObject:
   - component: {fileID: 1037741145}
   - component: {fileID: 1037741144}
   - component: {fileID: 1037741143}
+  - component: {fileID: 1037741146}
   m_Layer: 5
   m_Name: Button6
   m_TagString: Untagged
@@ -1489,7 +1642,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1037741144}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1037741146}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1037741144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1528,6 +1705,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037741141}
   m_CullTransparentMesh: 1
+--- !u!114 &1037741146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037741141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1 &1122670092
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,6 +1730,7 @@ GameObject:
   - component: {fileID: 1122670096}
   - component: {fileID: 1122670095}
   - component: {fileID: 1122670094}
+  - component: {fileID: 1122670097}
   m_Layer: 5
   m_Name: Button0
   m_TagString: Untagged
@@ -1609,7 +1800,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1122670095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P0
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1122670097}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1122670095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1648,6 +1863,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122670092}
   m_CullTransparentMesh: 1
+--- !u!114 &1122670097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122670092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1 &1149028102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,6 +1888,7 @@ GameObject:
   - component: {fileID: 1149028106}
   - component: {fileID: 1149028105}
   - component: {fileID: 1149028104}
+  - component: {fileID: 1149028107}
   m_Layer: 5
   m_Name: Button7
   m_TagString: Untagged
@@ -1729,7 +1958,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1149028105}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P7
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1149028107}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1149028105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1768,6 +2021,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149028102}
   m_CullTransparentMesh: 1
+--- !u!114 &1149028107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149028102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1 &1229419128
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,6 +2180,7 @@ GameObject:
   - component: {fileID: 1356266389}
   - component: {fileID: 1356266388}
   - component: {fileID: 1356266387}
+  - component: {fileID: 1356266391}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2006,6 +2273,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1356266391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356266386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d5d0237fd7d764f9d28515b6634a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1577735312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,6 +2297,7 @@ GameObject:
   - component: {fileID: 1577735316}
   - component: {fileID: 1577735315}
   - component: {fileID: 1577735314}
+  - component: {fileID: 1577735317}
   m_Layer: 5
   m_Name: Button1
   m_TagString: Untagged
@@ -2087,7 +2367,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1577735315}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1577735317}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1577735315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2126,6 +2430,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577735312}
   m_CullTransparentMesh: 1
+--- !u!114 &1577735317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577735312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1 &1768029828
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,6 +2455,7 @@ GameObject:
   - component: {fileID: 1768029832}
   - component: {fileID: 1768029831}
   - component: {fileID: 1768029830}
+  - component: {fileID: 1768029833}
   m_Layer: 5
   m_Name: Button2
   m_TagString: Untagged
@@ -2207,7 +2525,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1768029831}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1768029833}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1768029831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2246,6 +2588,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768029828}
   m_CullTransparentMesh: 1
+--- !u!114 &1768029833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768029828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1 &1859058148
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,6 +2613,7 @@ GameObject:
   - component: {fileID: 1859058152}
   - component: {fileID: 1859058151}
   - component: {fileID: 1859058150}
+  - component: {fileID: 1859058153}
   m_Layer: 5
   m_Name: Button9
   m_TagString: Untagged
@@ -2327,7 +2683,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1859058151}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1356266391}
+        m_TargetAssemblyTypeName: forPlanet, Assembly-CSharp
+        m_MethodName: P9
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1859058153}
+        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1859058151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2366,6 +2746,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859058148}
   m_CullTransparentMesh: 1
+--- !u!114 &1859058153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859058148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59d81fe7d2adb744f962af1e80cfa80d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toLoad: IzuchPlanet
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
